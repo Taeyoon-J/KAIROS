@@ -1,0 +1,13 @@
+{
+  "status": "full10000_10passes_and_evaluation_complete",
+  "binding_sha256": "71f5538252dc051a267c459aee35d353964f800abf520139f2c2b79f61e3a7a7",
+  "training_report_sha256": "33cb540a1384e40346a45a58ca898560adcb9cef0e437bb0fc309786cbd274f6",
+  "evaluation_sha256": "a2b0a1e357626ca93383a0a779a85b5ef758e666ebd9cb7562823c3756d01c53",
+  "evaluation_count": 320,
+  "variant": 253,
+  "seed": 0,
+  "dataset": "clevr",
+  "updates": 6250,
+  "images_seen": 100000,
+  "diagnostic_only": false
+}

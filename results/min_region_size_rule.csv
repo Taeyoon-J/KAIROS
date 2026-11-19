@@ -1,0 +1,14 @@
+# PV2_0158. The same core and the same masks, post-processed by the minimum-region-size rule:
+# discard any predicted region smaller than a fraction f of that image's predicted foreground.
+# (A) f fixed on CLEVR validation only and transferred unchanged. (B) f fixed on each dataset's
+# own validation split, which reads target-domain labels and is therefore the upper bound.
+# Reserved split, 320 images per dataset. count/exact/mae are object-count statistics.
+dataset,setting,f,fg_ari,fg_iou,obj_iou,predicted_count,true_count,exact_count_rate,count_mae
+clevr,no rule,,.8421,.7545,.6410,8.04,6.36,.175,2.88
+clevr,(A)=(B),0.01,.8408,.7528,.6387,5.15,6.36,.250,1.33
+tetrominoes,no rule,,.8580,.7885,.8173,21.07,3.00,.000,18.07
+tetrominoes,(A) transferred,0.01,.8568,.7950,.8170,5.28,3.00,.094,2.29
+tetrominoes,(B) target-tuned,0.10,.8550,.8066,.8167,3.02,3.00,.869,0.14
+multi_dsprites,no rule,,.6974,.8177,.7628,6.62,2.49,.281,4.56
+multi_dsprites,(A) transferred,0.01,.6966,.8190,.7625,2.64,2.49,.531,0.74
+multi_dsprites,(B) target-tuned,0.05,.6960,.8176,.7599,2.17,2.49,.647,0.46

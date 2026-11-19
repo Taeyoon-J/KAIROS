@@ -1,0 +1,16 @@
+# Table 1. All models trained on the same 10,000 CLEVR images for 10 epochs, evaluated on 320
+# held-out images per dataset by the same function. Tetrominoes and Multi-dSprites are zero-shot.
+# Metrics: foreground ARI, foreground IoU, matched-object IoU on the 64x64 patch grid.
+# Every model, ours included, has the minimum-region-size rule at f=0.01. One training seed.
+model,clevr_fg_ari,clevr_fg_iou,clevr_obj_iou,tetrominoes_fg_ari,tetrominoes_fg_iou,tetrominoes_obj_iou,multi_dsprites_fg_ari,multi_dsprites_fg_iou,multi_dsprites_obj_iou
+KAIROS (ours),.8408,.7528,.6387,.8568,.7950,.8170,.6966,.8190,.7625
+AKOrN (attn) + up-tiling,.6326,.3468,.3636,.5484,.7230,.4167,.5505,.6539,.6348
+AKOrN (conv),.6046,.4219,.2769,.7202,.7540,.5913,.4055,.6834,.5434
+AKOrN (attn),.6027,.3327,.3750,.5676,.7383,.4687,.4343,.6019,.5751
+ItrSA,.5794,.2787,.3853,.6319,.7137,.5687,.4817,.2489,.6093
+CAE++,.2838,.2193,.0882,.2715,.2452,.1901,.2648,.1048,.1125
+Slot Attention,.2872,.2220,.0801,.1739,.2192,.1071,.1930,.0876,.0680
+CtCAE,.2357,.2148,.0964,.2681,.2420,.2034,.3079,.1158,.1609
+CAE,.1091,.2008,.0634,.1526,.2305,.1192,.1200,.1038,.0630
+Best baseline per cell,.6326,.4267,.3853,.7202,.7540,.5913,.5505,.6834,.6348
+Our margin,+.2082,+.3261,+.2534,+.1366,+.0410,+.2257,+.1461,+.1356,+.1277

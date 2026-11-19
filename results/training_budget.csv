@@ -1,0 +1,10 @@
+# Each baseline at our budget against its own published figure, by its own metric and its own
+# evaluation code -- not by the patch protocol of table1_main.csv. budget_fraction is the share
+# of the published training schedule the matched-exposure protocol gives it.
+model,budget_fraction,at_our_budget,published
+AKOrN (conv),1/210,60.5,59.0 +- 4.3
+CAE,1/64,10.3,4.0
+AKOrN (attn),1/210,60.4,91.0 +- 0.5
+ItrSA,1/210,58.1,82.5 +- 1.7
+CAE++,1/64,16.7,27.0
+CtCAE,1/64,12.0,54.0

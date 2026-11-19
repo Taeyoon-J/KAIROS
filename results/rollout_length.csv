@@ -1,0 +1,7 @@
+# Rollout length T, CLEVR, core-only (no minimum-region-size rule). The readout always reads
+# the second half of the rollout (settle = T//2). Seconds per frame measured on the same GPU.
+total_steps,fg_ari,fg_iou,obj_iou,seconds_per_frame
+1024,.8421,.7545,.6410,10.8
+512,.8402,.7594,.6340,10.0
+256,.8159,.7358,.6084,8.8
+128,.5796,.4988,.3985,8.7

@@ -1,0 +1,6 @@
+# Cumulative unique CLEVR training images. Each row adds 1,000 previously unseen images for
+# 10 epochs, resuming from the previous row. CLEVR evaluation, core-only, no rule.
+images,fg_ari,fg_iou,obj_iou,delta_fg_ari
+10000,.8421,.7545,.6410,
+11000,.8426,.7539,.6427,+.0005
+12000,.8449,.7607,.6461,+.0028

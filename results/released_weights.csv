@@ -1,0 +1,7 @@
+# Slot Attention's released checkpoint (~32M exposures) against the matched-budget retraining
+# (100,000 exposures) and against KAIROS. All three rows are WITHOUT the minimum-region-size
+# rule, so the released and retrained Slot Attention rows are compared on identical terms.
+model,clevr_fg_ari,clevr_fg_iou,clevr_obj_iou,tetrominoes_fg_ari,tetrominoes_fg_iou,tetrominoes_obj_iou,multi_dsprites_fg_ari,multi_dsprites_fg_iou,multi_dsprites_obj_iou
+Slot Attention matched budget,.2872,.2220,.0801,.1739,.2192,.1071,.1930,.0876,.0680
+Slot Attention released weights,.3747,.2219,.1165,.4742,.2381,.2355,.3205,.0980,.1204
+KAIROS matched budget,.8421,.7545,.6410,.8580,.7885,.8173,.6974,.8177,.7628

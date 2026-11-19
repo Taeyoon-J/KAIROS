@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# trained weights and cached rollouts are not in git -- see docs/checkpoints.md
+*.pt
+*.pth
+run/
+cache/

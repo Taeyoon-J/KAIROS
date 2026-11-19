@@ -1,0 +1,7 @@
+{
+  "prepared_inputs": "/work/USERS/tkim1/sw0255b/data_root/inputs",
+  "clevr_cache": "/work/USERS/tkim1/sw0255b/data_root/clevr_cache",
+  "clevr_hdf5": "/work/USERS/tkim1/sw0255b/data_root/clevr/clevr_10-full.hdf5",
+  "peer_mod_root": "/work/USERS/tkim1/sw0255b/data_root/peer_mod",
+  "preflight_reference": "/work/USERS/tkim1/sw0255b/data_root/preflight_reference/targets_v1.pt"
+}
