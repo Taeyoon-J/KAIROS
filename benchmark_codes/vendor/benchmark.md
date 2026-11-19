@@ -248,7 +248,8 @@ Both columns favour us and both have to be stated, not implied.
 
 ### What must be disclosed about SW0240
 
-**It is mask-supervised.** Its own README says so: *"240번은 mask-supervised입니다."* Its
+**It is mask-supervised.** Its own README says so: *"model 240 is mask-supervised"*
+(translated from the Korean original). Its
 three-seed means are **0.889187 / 0.754775 / 0.686438**, and the endpoint is
 `SW0249_matched35000_terminal` — 70,000 images of training followed by 35,000 × 10 in the
 final four-model comparison.

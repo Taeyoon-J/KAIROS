@@ -167,6 +167,11 @@ here uses it.
   253, seed 0, `diagnostic_only: false`).
 - Some scripts carry absolute cluster paths from the machine they ran on. They are left as they
   ran rather than rewritten, so the commands in the experiment log stay readable against them.
+- Everything here is in English. Three documents were originally Korean and were translated:
+  `benchmark_codes/README.md` (rewritten for this repository), `vendor/mod_benchmark/DESIGN.md`
+  (was `DESIGN_KO.md`), and one quoted sentence in the hash-locked `vendor/benchmark.md`, whose
+  lock entry was recomputed for that file alone — the ten code hashes under `vendor/benchmark/`
+  are unchanged.
 - `benchmark_codes/vendor/benchmark/build_gamma_grid.py` imports a helper
   (`snn_kuramoto_bidirectional.gamma_ordering`) that is not in this tree. It is a frozen
   one-off grid builder from an earlier generation of the code, is not on the model's path, and
